@@ -49,5 +49,19 @@
         android:text="@string/crime_solved_label">
     </CheckBox>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choose_suspect_button"
+        android:text="@string/choose_suspect_text">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_crime_report_button"
+        android:text="@string/crime_report_text">
+    </Button>
+
 
 </LinearLayout>
